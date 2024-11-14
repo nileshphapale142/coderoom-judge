@@ -1,10 +1,11 @@
 # Coderoom Judge
 
-- Clone repo
-- Moved to the directory
-- Rename "judge0.template.conf" to "judge0.conf"
-- Add REDIS_PASSWORD and POSTGRES_PASSWORD in "judge0.conf"
-- Run following commands
+```
+git clone https://github.com/nileshphapale142/coderoom-judge.git
+cd coderoom-judge
+mv judge0.template.conf judge0.conf
+```
+- Add REDIS_PASSWORD and POSTGRES_PASSWORD in judge0.conf
 ```
 docker-compose up -d db redis
 sleep 10s
